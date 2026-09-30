@@ -1,0 +1,139 @@
+{
+  "appType": "website",
+  "category": "ecommerce",
+  "title": "ביצים חומות טריות",
+  "description": "A website for selling fresh brown eggs directly from the farm.",
+  "slug": "brown-eggs",
+  "lang": ["he"],
+  "color": "amber",
+  "pages": [
+    {
+      "name": "Home",
+      "info": "Landing page showcasing fresh brown eggs, hero section, featured products, and key benefits of farm-fresh eggs.",
+      "route": "/",
+      "lang": "he",
+      "home": true,
+      "auth": false,
+      "type": "page"
+    },
+    {
+      "name": "About",
+      "info": "Story of the farm, values, how eggs are produced, and quality standards.",
+      "route": "/about",
+      "lang": "he",
+      "home": false,
+      "auth": false,
+      "type": "page"
+    },
+    {
+      "name": "Shop",
+      "info": "Product catalog displaying available egg packages with prices, sizes and order options.",
+      "route": "/shop",
+      "lang": "he",
+      "home": false,
+      "auth": false,
+      "type": "page"
+    },
+    {
+      "name": "Contact",
+      "info": "Contact form for inquiries, farm address, phone number and business hours.",
+      "route": "/contact",
+      "lang": "he",
+      "home": false,
+      "auth": false,
+      "type": "page"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Product",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Name of the egg product or package",
+          "default": null
+        },
+        "description": {
+          "type": "text",
+          "description": "Detailed description of the product",
+          "default": null
+        },
+        "price": {
+          "type": "number",
+          "description": "Price in ILS",
+          "default": null
+        },
+        "quantity": {
+          "type": "number",
+          "description": "Number of eggs in the package",
+          "default": null
+        },
+        "imageUrl": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "URL of the product image",
+          "default": null
+        },
+        "size": {
+          "type": "enum",
+          "values": ["small", "medium", "large", "extra_large"],
+          "labels": {
+            "small": "קטן",
+            "medium": "בינוני",
+            "large": "גדול",
+            "extra_large": "XL"
+          },
+          "description": "Egg size classification",
+          "default": "medium"
+        },
+        "inStock": {
+          "type": "boolean",
+          "description": "Whether the product is currently available",
+          "default": true
+        }
+      },
+      "required": ["name", "price", "quantity"],
+      "publicRead": true,
+      "publicCreate": false
+    },
+    {
+      "name": "ContactMessage",
+      "type": "object",
+      "properties": {
+        "fullName": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Full name of the person sending the message",
+          "default": null
+        },
+        "email": {
+          "type": "string",
+          "maxLength": 250,
+          "description": "Email address of the sender",
+          "default": null
+        },
+        "phone": {
+          "type": "string",
+          "maxLength": 30,
+          "description": "Phone number of the sender",
+          "default": null
+        },
+        "message": {
+          "type": "text",
+          "description": "Content of the inquiry or message",
+          "default": null
+        }
+      },
+      "required": ["fullName", "email", "message"],
+      "publicRead": false,
+      "publicCreate": true
+    }
+  ],
+  "auth": {
+    "enabled": false,
+    "type": "public",
+    "hasUserRoles": false
+  }
+}
