@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --primary: #b3b3b3;
-  --primary-hover: #B45309;
-  --primary-light: #FEF3C7;
+  --primary: #000000;
+  --primary-hover: #00aaff;
+  --primary-light: #E0F2FE;
   --primary-text: #ffffff;
 
-  --secondary: #FEF9E9;
-  --secondary-hover: #FDF0CE;
-  --secondary-light: #FFFDF5;
-  --secondary-text: #D97706;
+  --secondary: #EFF8FD;
+  --secondary-hover: #DDEEF9;
+  --secondary-light: #F7FBFE;
+  --secondary-text: #00aeff;
 
-  --accent: #4F46E5;
-  --accent-hover: #4338CA;
-  --accent-light: #E0E7FF;
+  --accent: #F97316;
+  --accent-hover: #EA580C;
+  --accent-light: #FFEDD5;
   --accent-text: #ffffff;
 
   --success: #22C55E;
@@ -34,40 +34,40 @@
   --info: #3B82F6;
   --info-hover: #2563EB;
   --info-light: #DBEAFE;
-  --info-text: #1D4ED8;
+  --info-text: #0044ff;
 
-  --background: #FFFDF5;
+  --background: #F7FBFE;
   --surface: #ffffff;
-  --surface-2: #FEF9E9;
-  --surface-3: #FDF0CE;
+  --surface-2: #EFF8FD;
+  --surface-3: #DDEEF9;
   --overlay: rgba(0,0,0,0.45);
 
-  --text: #3A2708;
-  --text-secondary: #6B5127;
-  --text-muted: #B3A181;
+  --text: #0C2A3D;
+  --text-secondary: #37596E;
+  --text-muted: #89A5B5;
   --text-inverse: #ffffff;
-  --text-link: #D97706;
-  --text-link-hover: #B45309;
+  --text-link: #0EA5E9;
+  --text-link-hover: #00aaff;
 
-  --border: #FDF0CE;
-  --border-focus: #D97706;
+  --border: #DDEEF9;
+  --border-focus: #00aeff;
   --border-error: #EF4444;
   --border-success: #22C55E;
-  --divider: #FEF9E9;
+  --divider: #EFF8FD;
 
-  --btn-primary-bg: #D97706;
-  --btn-primary-hover: #B45309;
+  --btn-primary-bg: #0EA5E9;
+  --btn-primary-hover: #0284C7;
   --btn-primary-text: #ffffff;
-  --btn-secondary-bg: #FEF9E9;
-  --btn-secondary-hover: #FDF0CE;
-  --btn-secondary-text: #D97706;
-  --btn-secondary-border: #D97706;
+  --btn-secondary-bg: #EFF8FD;
+  --btn-secondary-hover: #DDEEF9;
+  --btn-secondary-text: #0EA5E9;
+  --btn-secondary-border: #0EA5E9;
   --btn-danger-bg: #EF4444;
   --btn-danger-hover: #DC2626;
   --btn-danger-text: #ffffff;
   --btn-danger-border: #EF4444;
-  --btn-ghost-hover: #FEF3C7;
-  --btn-ghost-text: #D97706;
+  --btn-ghost-hover: #E0F2FE;
+  --btn-ghost-text: #00aeff;
   --btn-radius: 10px;
   --btn-sm-padding: 6px 14px;
   --btn-md-padding: 10px 22px;
@@ -75,29 +75,29 @@
   --btn-font-weight: 600;
 
   --input-bg: #ffffff;
-  --input-bg-focus: #FFFDF5;
-  --input-border: #FDF0CE;
-  --input-focus: #D97706;
+  --input-bg-focus: #F7FBFE;
+  --input-border: #DDEEF9;
+  --input-focus: #0EA5E9;
   --input-error: #EF4444;
   --input-success: #22C55E;
-  --input-text: #3A2708;
-  --input-placeholder: #B3A181;
+  --input-text: #0C2A3D;
+  --input-placeholder: #89A5B5;
   --input-radius: 10px;
   --input-padding: 10px 14px;
   --input-font-size: 15px;
 
   --card-bg: #ffffff;
-  --card-border: #FEF9E9;
+  --card-border: #EFF8FD;
   --card-radius: 14px;
   --card-padding: 24px;
-  --card-shadow: 0 2px 12px rgba(217,119,6,0.07);
-  --card-hover-shadow: 0 6px 24px rgba(217,119,6,0.15);
+  --card-shadow: 0 2px 12px rgba(14,165,233,0.07);
+  --card-hover-shadow: 0 6px 24px rgba(14,165,233,0.15);
 
-  --table-header-bg: #FEF3C7;
-  --table-header-text: #D97706;
-  --table-row-hover: #FFFDF5;
-  --table-border: #FEF9E9;
-  --table-row-even: #FFFDF5;
+  --table-header-bg: #E0F2FE;
+  --table-header-text: #0EA5E9;
+  --table-row-hover: #F7FBFE;
+  --table-border: #EFF8FD;
+  --table-row-even: #F7FBFE;
   --table-row-odd: #ffffff;
 
   --badge-radius: 999px;
@@ -108,36 +108,36 @@
   --modal-bg: #ffffff;
   --modal-radius: 18px;
   --modal-padding: 32px;
-  --modal-shadow: 0 8px 40px rgba(217,119,6,0.18);
+  --modal-shadow: 0 8px 40px rgba(14,165,233,0.18);
 
   --menu-bg: #ffffff;
-  --menu-border: #FEF9E9;
+  --menu-border: #EFF8FD;
   --menu-radius: 12px;
-  --menu-shadow: 0 4px 20px rgba(217,119,6,0.12);
-  --menu-item-hover: #FEF9E9;
-  --menu-item-text: #3A2708;
+  --menu-shadow: 0 4px 20px rgba(14,165,233,0.12);
+  --menu-item-hover: #EFF8FD;
+  --menu-item-text: #0C2A3D;
   --menu-item-padding: 10px 16px;
 
-  --tab-active-bg: #D97706;
+  --tab-active-bg: #5f9e00;
   --tab-active-text: #ffffff;
-  --tab-inactive: #B3A181;
-  --tab-hover-text: #D97706;
+  --tab-inactive: #89A5B5;
+  --tab-hover-text: #0EA5E9;
   --tab-radius: 8px;
   --tab-padding: 8px 18px;
 
-  --sidebar-bg: #3A2708;
-  --sidebar-text: #E0CFAE;
+  --sidebar-bg: #0C2A3D;
+  --sidebar-text: #B4CEDD;
   --sidebar-text-active: #ffffff;
-  --sidebar-item-active: #D97706;
-  --sidebar-item-hover: rgba(217,119,6,0.15);
+  --sidebar-item-active: #0EA5E9;
+  --sidebar-item-hover: rgba(14,165,233,0.15);
   --sidebar-border: rgba(255,255,255,0.07);
   --sidebar-w: 240px;
   --sidebar-w-sm: 64px;
 
   --header-bg: #ffffff;
-  --header-border: #FEF9E9;
+  --header-border: #EFF8FD;
   --header-h: 64px;
-  --header-text: #3A2708;
+  --header-text: #0C2A3D;
 
   --radius-xs: 4px;
   --radius-sm: 6px;
@@ -148,15 +148,15 @@
   --radius-2xl: 24px;
   --radius-full: 9999px;
 
-  --shadow-xs: 0 1px 3px rgba(217,119,6,0.06);
-  --shadow-sm: 0 2px 8px rgba(217,119,6,0.08);
-  --shadow-md: 0 4px 16px rgba(217,119,6,0.10);
-  --shadow-lg: 0 8px 32px rgba(217,119,6,0.13);
-  --shadow-xl: 0 16px 48px rgba(217,119,6,0.18);
+  --shadow-xs: 0 1px 3px rgba(14,165,233,0.06);
+  --shadow-sm: 0 2px 8px rgba(14,165,233,0.08);
+  --shadow-md: 0 4px 16px rgba(14,165,233,0.10);
+  --shadow-lg: 0 8px 32px rgba(14,165,233,0.13);
+  --shadow-xl: 0 16px 48px rgba(14,165,233,0.18);
 
-  --font: 'Assistant', sans-serif;
-  --font-heading: 'Assistant', sans-serif;
-  --font-mono: 'Courier New', monospace;
+  --font: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Inter', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'Courier New', monospace;
   --font-size-xs: 11px;
   --font-size-sm: 13px;
   --font-size-base: 15px;
@@ -196,42 +196,42 @@
 }
 
 .dark {
-  --background: #1C1304;
-  --surface: #2A1D09;
-  --surface-2: #39280F;
-  --surface-3: #4C3717;
+  --background: #071620;
+  --surface: #0E2331;
+  --surface-2: #153042;
+  --surface-3: #1E4055;
   --overlay: rgba(0,0,0,0.65);
-  --text: #FBF0D5;
-  --text-secondary: #C9B58A;
-  --text-muted: #8E8060;
-  --text-inverse: #2A1D09;
-  --text-link: #FBBF24;
-  --text-link-hover: #FBBF24;
-  --border: #4C3717;
-  --border-focus: #FBBF24;
-  --divider: #39280F;
-  --card-bg: #2A1D09;
-  --card-border: #4C3717;
-  --header-bg: #2A1D09;
-  --header-border: #4C3717;
-  --input-bg: #39280F;
-  --input-bg-focus: #4C3717;
-  --input-border: #4C3717;
-  --input-text: #FBF0D5;
-  --table-header-bg: #39280F;
-  --table-row-even: #2A1D09;
-  --table-row-odd: #39280F;
-  --table-row-hover: #4C3717;
-  --modal-bg: #2A1D09;
-  --menu-bg: #2A1D09;
-  --menu-border: #4C3717;
-  --menu-item-hover: #39280F;
-  --menu-item-text: #FBF0D5;
-  --tab-inactive: #8E8060;
-  --primary-light: #39280F;
-  --secondary: #39280F;
-  --secondary-hover: #4C3717;
-  --secondary-light: #2A1D09;
+  --text: #DBEEF9;
+  --text-secondary: #94B4C6;
+  --text-muted: #5F7A8A;
+  --text-inverse: #0E2331;
+  --text-link: #38BDF8;
+  --text-link-hover: #38BDF8;
+  --border: #1E4055;
+  --border-focus: #38BDF8;
+  --divider: #153042;
+  --card-bg: #0E2331;
+  --card-border: #1E4055;
+  --header-bg: #0E2331;
+  --header-border: #1E4055;
+  --input-bg: #153042;
+  --input-bg-focus: #1E4055;
+  --input-border: #1E4055;
+  --input-text: #DBEEF9;
+  --table-header-bg: #153042;
+  --table-row-even: #0E2331;
+  --table-row-odd: #153042;
+  --table-row-hover: #1E4055;
+  --modal-bg: #0E2331;
+  --menu-bg: #0E2331;
+  --menu-border: #1E4055;
+  --menu-item-hover: #153042;
+  --menu-item-text: #DBEEF9;
+  --tab-inactive: #5F7A8A;
+  --primary-light: #153042;
+  --secondary: #153042;
+  --secondary-hover: #1E4055;
+  --secondary-light: #0E2331;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -242,6 +242,7 @@ body {
   font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
 }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: var(--radius-full); }
