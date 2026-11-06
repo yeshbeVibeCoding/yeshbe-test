@@ -1,0 +1,82 @@
+{
+  "Lead": [
+    {
+      "fullName": "Daniel Ortega",
+      "phone": "+1 (415) 555-0183",
+      "goal": "weightLoss",
+      "preferredTime": "morning"
+    },
+    {
+      "fullName": "Sarah Lindqvist",
+      "phone": "(312) 555-0127",
+      "goal": "strength",
+      "preferredTime": "evening"
+    },
+    {
+      "fullName": "Mike Turner",
+      "phone": "+1 604-555-0968",
+      "goal": "muscleGain",
+      "preferredTime": "afternoon"
+    },
+    {
+      "fullName": "Priya Raman",
+      "phone": "+1 416 555 0342",
+      "goal": "fitness",
+      "preferredTime": "weekend"
+    },
+    {
+      "fullName": "Jordan Blake",
+      "phone": "512.555.0671",
+      "goal": "weightLoss",
+      "preferredTime": "evening"
+    },
+    {
+      "fullName": "Elena Marchetti",
+      "phone": "+1 (206) 555-0859",
+      "goal": "other",
+      "preferredTime": "morning"
+    },
+    {
+      "fullName": "Tyler Bennett",
+      "phone": "+1 303-555-0214",
+      "goal": "muscleGain",
+      "preferredTime": "morning"
+    },
+    {
+      "fullName": "Amara Okafor",
+      "phone": "+1 (718) 555-0493",
+      "goal": "strength",
+      "preferredTime": "afternoon"
+    },
+    {
+      "fullName": "Chris Delaney",
+      "phone": "+1 480 555 0736",
+      "goal": "fitness",
+      "preferredTime": "evening"
+    },
+    {
+      "fullName": "Hannah Westfall",
+      "phone": "(615) 555-0148",
+      "goal": "weightLoss",
+      "preferredTime": "weekend"
+    },
+    {
+      "fullName": "Rafael Souza",
+      "phone": "+1 954-555-0392",
+      "goal": "muscleGain",
+      "preferredTime": "afternoon"
+    },
+    {
+      "fullName": "Lucy Harrington",
+      "phone": "+1 (503) 555-0715",
+      "goal": "fitness",
+      "preferredTime": "morning"
+    },
+    {
+      "fullName": "Kevin Nakamura",
+      "phone": "+1 213 555 0866",
+      "goal": "strength",
+      "preferredTime": "weekend"
+    }
+  ]
+}
